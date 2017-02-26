@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+
+@media(max-width:700px) {
+  body {
+    font-size: 3.0vw !important;
+  }
+  
+  h1 {
+    font-size: 8.0vw !important;
+  }
+  
+  blockquote p {
+    font-size: 4.0vw !important;
+  }
+  
+  .btn {
+    width: 35vw !important;
+  }
+  
+  #quote-btn {
+    font-size: 3.5vw !important;
+  }
+
+  #tweet-btn {
+    font-size: 3.0vw !important;
+  }
+}
+
+body {
+  font-size: 2.0vw;
+  background-image: url("http://eskipaper.com/images/simple-backgrounds-14.jpg");
+  background-position: fixed;
+  color: white;
+  font-family: 'Dancing Script'
+}
+
+footer {
+  color: 
+}
+
+h1 {
+  font-size: 6.0vw;
+  text-shadow: 0px 5px 5px black;
+}
+
+blockquote p{
+  display: inline;
+  text-shadow: 0px 3px 2px black;
+  font-size: 3.0vw;
+}
+
+.btn {
+  opacity: 0.8;
+  width: 20vw;
+}
+
+#author {
+  color: #A5A5A5;
+}
+
+#quote-btn {
+  font-size: 2.5vw;
+}
+
+#tweet-btn {
+  font-size: 2.0vw;
+}
+
+.social-link {
+  color: white;
+  opacity: 0.8;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.social-link:hover{
+  color: #847FFF;
+}
+
+footer p a{
+  color: skyblue;
+}
+
+footer p a:hover {
+  color: lightblue;
+}
+/*Animation Delays*/
+
+h1 {
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-delay: 0s;
+  -moz-animation-duration: 0.5s;
+  -moz-animation-delay: 0s;
+  over-flow: hidden;
+}
+
+.btn {
+  -webkit-animation-duration: 2.5s;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-duration: 2.5s;
+  -moz-animation-delay: 0.5s;
+  over-flow: hidden;
+}
+
+blockquote {
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-duration: 1.5s;
+  -moz-animation-delay: 0.5s;
+  over-flow: hidden;
+}
+
