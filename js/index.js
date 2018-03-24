@@ -1,6 +1,6 @@
 $(document).ready(function(){
   
-  var jsonUrl = "http://api.forismatic.com/api/1.0/?method=getQuote&key=600000&format=jsonp&lang=en&jsonp=?";
+  var jsonUrl = "https://api.forismatic.com/api/1.0/?method=getQuote&key=600000&format=jsonp&lang=en&jsonp=?";
   
   var getQuote = function(json){
     var quote = json.quoteText;
